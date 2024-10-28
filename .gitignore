@@ -1,0 +1,30 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment folder
+.venv/
+env/
+venv/
+
+# Ignore PyCharm specific files
+.idea/
+*.iml
+
+# Ignore other environment or system-specific files
+.DS_Store
+.vscode/
+
+# Ignore logs, databases, temp files, and other files generated during development
+*.log
+*.sqlite3
+*.db
+
+# Ignore compiled or generated files
+*.exe
+*.dll
+*.so
+*.dylib
+*.swp
